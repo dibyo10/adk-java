@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.15.0](https://github.com/google/adk-java/compare/v1.14.0...v1.15.0) (2026-11-03)
+
+
+### Features
+
+* **tokt:** carry transcriptions and turnComplete across the interop ([30edd99](https://github.com/google/adk-java/commit/30edd998914c6412276d1b9c4b72dcdfb9f97976))
+* **tokt:** convert speech and transcription configs ([ab34617](https://github.com/google/adk-java/commit/ab34617775820fc67dcec423711fe8674353e23b))
+
+
+### Bug Fixes
+
+* **plugins:** prevent BQAA offload data loss and preserve binary MIME ([94b5bac](https://github.com/google/adk-java/commit/94b5bacdb1c037ab162ffb88abee570ade8dfdec))
+* **tokt:** merge a Java plugin's replacement onto the original, as ADK Python does ([0bb7f4a](https://github.com/google/adk-java/commit/0bb7f4acfa84848722108547c08d2a97bfc4450d))
+
 ## [1.14.0](https://github.com/google/adk-java/compare/v1.13.0...v1.14.0) (2026-11-02)
 
 
